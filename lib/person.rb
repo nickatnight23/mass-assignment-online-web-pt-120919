@@ -5,4 +5,4 @@ class Person
    attributes.each {|key, value| self.send(("#{key}="), value)}
 end
 
-person.new
+bob = person.new(bob_attributes)
